@@ -18,7 +18,7 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 // change title
 
-function battle() {
+function gameOn() {
   if (randomNumber1 > randomNumber2) {
     return (document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!");
   } else if (randomNumber1 < randomNumber2) {
@@ -27,4 +27,4 @@ function battle() {
     return (document.querySelector("h1").innerHTML = "🙌 Draw! 🙌");
   }
 }
-console.log(battle());
+console.log(gameOn());
